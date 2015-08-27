@@ -1,0 +1,27 @@
+{
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "jquery": "npm:jquery@^2.1.4",
+      "marked": "npm:marked@^0.3.5",
+      "react": "npm:react@^0.13.3",
+      "react-redux": "npm:react-redux@^1.0.1",
+      "redux": "npm:redux@^1.0.1",
+      "redux-devtools": "npm:redux-devtools@^1.1.2"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.22",
+      "babel-runtime": "npm:babel-runtime@^5.8.20",
+      "core-js": "npm:core-js@^1.1.0"
+    }
+  },
+  "devDependencies": {
+    "http-server": "^0.8.0",
+    "jspm": "^0.16.2",
+    "standard": "^5.1.0"
+  },
+  "scripts": {
+    "test": "standard",
+    "serve": "http-server ."
+  }
+}
